@@ -1,0 +1,27 @@
+.dashboard-wrapper {
+    padding: 0 !important;
+  .profile-intro {
+    height: 90%;
+    background-color: rgb(231, 238, 253);
+
+  }
+  .profile-img{
+      width: 20%;
+  }
+  .bubbles{
+    border-radius: 50%;
+    background-color: rgb(179, 201, 248);
+    z-index: 10;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    // -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	// -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow:0 14px 35px rgb(0 0 0 / 21%), inset 2px 1px 25px 5px white;
+	
+    height: 12rem;
+	position: absolute;
+	width: 12rem;
+}
+}
